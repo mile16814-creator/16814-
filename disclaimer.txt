@@ -1,0 +1,51 @@
+# 免责声明与最终用户许可协议
+
+## 重要须知
+本软件由独立开发者出于教育与研究目的创建。**任何下载、安装、复制、使用本工具的行为，即表示您已阅读、理解并无条件同意受本协议全部条款的约束。**
+
+## 第一条 严格的使用限制
+1.1 本工具**仅限于**在您拥有**完全、明确书面授权**的测试目标上使用。合法用途包括：
+    *   对您个人完全所有的资产（如本地虚拟机、家庭网络设备）进行安全评估；
+    *   在专门为安全教学设计的合法靶场环境（如DVWA, Metasploitable）中进行练习；
+    *   依据《中华人民共和国网络安全法》第二十七条，在获得目标系统所有者正式授权后进行的渗透测试。
+
+1.2 **您在此明确承诺，不会将本工具用于以下任何用途：**
+    *   对任何未获得明确授权的系统、网络、网站或数据进行扫描、探测或攻击；
+    *   以任何方式破坏、干扰、非法访问或窃取他人数据；
+    *   进行任何违反《中华人民共和国网络安全法》、《中华人民共和国刑法》及其他适用法律法规的行为。
+
+## 第二条 无担保与责任免除
+2.1 本工具按“现状”提供，开发者**不提供任何明示或暗示的担保**，包括但不限于对工具的适用性、准确性、完整性、无病毒或无错误的担保。
+2.2 因使用或无法使用本工具所引发的**任何直接、间接、偶然、特殊或后果性损害**（包括但不限于数据丢失、服务中断、利润损失），开发者概不承担任何责任，即使已被告知有可能发生此类损害。
+2.3 **使用者应对其使用本工具的全部行为承担独立、完全的法律责任**。任何滥用本工具导致的后果（包括但不限于民事赔偿、行政处罚及刑事责任），均与开发者无关。
+
+## 第三条 协议变更与终止
+开发者保留随时修改本免责声明的权利。您继续使用本工具即视为接受修改后的条款。如您不同意本协议的任何条款，您唯一的救济方式是**立即停止使用并彻底删除本工具的所有副本**。
+
+---
+
+**English Version**
+
+# DISCLAIMER AND END-USER LICENSE AGREEMENT
+
+## IMPORTANT NOTICE
+The software, "【Tool Name, e.g., NimbleScan】" (hereinafter referred to as "the Tool"), is created by an independent developer 【Your Name/Handle, optional】 for educational and research purposes ONLY. **By downloading, installing, copying, or using the Tool in any way, you signify that you have read, understood, and unconditionally agreed to be bound by all terms of this agreement.**
+
+## SECTION 1: STRICT USAGE RESTRICTIONS
+1.1 The Tool may **ONLY** be used on targets for which you have **full and explicit written authorization**. Legitimate uses include:
+    *   Security assessment of assets you wholly own (e.g., local VMs, home network devices);
+    *   Practice within legally established training environments (e.g., DVWA, Metasploitable);
+    *   Penetration testing conducted with formal authorization from the target system owner.
+
+1.2 **You hereby explicitly agree NOT to use the Tool for any of the following purposes:**
+    *   Scanning, probing, or attacking any system, network, website, or data without explicit authorization;
+    *   Disrupting, interfering with, illegally accessing, or stealing data from others;
+    *   Any activity that violates applicable laws and regulations.
+
+## SECTION 2: NO WARRANTY & LIMITATION OF LIABILITY
+2.1 The Tool is provided "AS IS". The developer **provides NO warranties**, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, accuracy, or non-infringement.
+2.2 In no event shall the developer be liable for **any direct, indirect, incidental, special, or consequential damages** (including data loss, service interruption, loss of profits) arising from the use or inability to use the Tool.
+2.3 **You, the user, assume ALL legal responsibility** for your actions while using the Tool. The developer shall not be held liable for any consequences resulting from the misuse of the Tool.
+
+## SECTION 3: AGREEMENT MODIFICATION & TERMINATION
+The developer reserves the right to modify this disclaimer at any time. Your continued use of the Tool constitutes acceptance of the modified terms. If you disagree with any part of this agreement, your sole remedy is to **immediately cease using and permanently delete all copies of the Tool**.
