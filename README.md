@@ -14,4 +14,6 @@ python scanner.py -f urls.txt
 
 # 保存报告到文件
 python scanner.py https://example.com -o report.txt
+
+#获得帮助
 或使用python scanner.py --help获得帮助
