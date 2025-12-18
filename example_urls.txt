@@ -1,0 +1,6 @@
+# Web安全扫描工具 - 示例URL列表
+# 每行一个URL，以#开头的行会被忽略
+
+https://httpbin.org
+https://example.com
+https://testphp.vulnweb.com
