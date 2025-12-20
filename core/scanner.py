@@ -43,7 +43,8 @@ from .checks import (
     config_errors,
     http_security,
     api_security,
-    basic_exposure
+    basic_exposure,
+    sql_injection
 )
 
 class WebSecurityScanner:
@@ -98,7 +99,8 @@ class WebSecurityScanner:
             'config_errors': config_errors.ConfigErrorChecks(self.session),
             'http_security': http_security.HttpSecurityChecks(self.session),
             'api_security': api_security.ApiSecurityChecks(self.session),
-            'basic_exposure': basic_exposure.BasicExposureChecks(self.session)
+            'basic_exposure': basic_exposure.BasicExposureChecks(self.session),
+            'sql_injection': sql_injection.SqlInjectionChecks(self.session)
         }
         
         # 所有检查点

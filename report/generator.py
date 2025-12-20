@@ -42,7 +42,8 @@ class ReportGenerator:
             "config_errors": "二、配置错误/信息泄露", 
             "http_security": "三、HTTP/会话安全",
             "api_security": "四、API安全漏洞",
-            "basic_exposure": "五、基础暴露面/轻量扫描"
+            "basic_exposure": "五、基础暴露面/轻量扫描",
+            "sql_injection": "六、SQL注入漏洞"
         }
         
         # 检查点名称映射（中文）
@@ -83,7 +84,15 @@ class ReportGenerator:
             "web_service_fingerprint": "Web服务指纹",
             "service_banner_leak": "服务Banner信息泄露",
             "https_not_forced": "HTTPS未强制",
-            "mixed_content": "混合内容"
+            "mixed_content": "混合内容",
+            
+            # SQL注入漏洞
+            "error_based_sql_injection": "基于错误的SQL注入",
+            "boolean_based_sql_injection": "基于布尔的SQL注入",
+            "time_based_sql_injection": "基于时间的SQL注入",
+            "url_parameter_sql_injection": "URL参数SQL注入",
+            "post_form_sql_injection": "POST表单SQL注入",
+            "http_header_sql_injection": "HTTP头SQL注入"
         }
         
         # 风险等级映射

@@ -4,7 +4,7 @@ Web安全扫描工具核心模块
 """
 
 __version__ = '1.0.0'
-__author__ = '安全扫描工具'
+__author__ = 'Mile16814'
 
 from .scanner import WebSecurityScanner
 from .checks import (

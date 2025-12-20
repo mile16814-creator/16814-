@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Web安全扫描工具 - 轻量级漏洞扫描器
-支持28种常见安全漏洞检测
+支持34种常见安全漏洞检测
 """
 
 import argparse
@@ -84,8 +84,8 @@ def print_banner():
 {Fore.YELLOW}        Web安全扫描工具 v1.0
 {Fore.CYAN}{'='*60}
 {Fore.WHITE}描述: 轻量级Web安全漏洞扫描器
-{Fore.WHITE}支持: 28种常见安全漏洞检测
-{Fore.WHITE}作者: 安全扫描工具
+{Fore.WHITE}支持: 34种常见安全漏洞检测
+{Fore.WHITE}作者: Mile16814
 {Fore.WHITE}时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 {Fore.CYAN}{'='*60}
     """
@@ -95,8 +95,8 @@ def print_banner():
         Web安全扫描工具 v1.0
 {'='*60}
 描述: 轻量级Web安全漏洞扫描器
-支持: 28种常见安全漏洞检测
-作者: 安全扫描工具
+支持: 34种常见安全漏洞检测
+作者: Mile16814
 时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 {'='*60}
     """
@@ -135,6 +135,7 @@ def print_help():
 {Fore.WHITE}  http_security  HTTP/会话安全
 {Fore.WHITE}  api_security   API安全漏洞
 {Fore.WHITE}  basic_exposure 基础暴露面/轻量扫描
+{Fore.WHITE}  sql_injection  SQL注入漏洞
     """
     else:
         help_text = f"""
@@ -167,6 +168,7 @@ def print_help():
   http_security  HTTP/会话安全
   api_security   API安全漏洞
   basic_exposure 基础暴露面/轻量扫描
+  sql_injection  SQL注入漏洞
     """
     safe_print(help_text)
 
@@ -272,7 +274,7 @@ def main():
                 os.environ['PYTHON_ARGCOMPLETE_NO_COLOR'] = '1'
                 
                 parser = argparse.ArgumentParser(
-                    description='Web安全扫描工具 - 轻量级漏洞扫描器',
+                    description='Web安全扫描工具 - 轻量级漏洞扫描器（支持34种安全检查）',
                     add_help=False
                 )
                 
